@@ -10,6 +10,6 @@ public class Controller_Portal {
 	@RequestMapping("/test")
 	public String Test() {
 		
-		return "Portal Test Successfully!!!!!!!";
+		return "Portal Test Successfully!";
 	}
 }
