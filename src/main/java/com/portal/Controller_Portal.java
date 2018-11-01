@@ -1,5 +1,6 @@
 package com.portal;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
@@ -9,14 +10,15 @@ import org.springframework.web.servlet.ModelAndView;
 public class Controller_Portal {
 
 	@RequestMapping("/test")
-	public String Test() {
+	public String test() {
 		
 		return "Portal Test Successfully!";
 	}
 	
-	@RequestMapping("/test-html")
-	public ModelAndView Test(ModelAndView modelAndView) {
-		modelAndView.setViewName("portal/test");
+	@GetMapping("/home")
+	public ModelAndView home(ModelAndView modelAndView ) {
+		modelAndView.setViewName("portal/home");
 		return modelAndView;
 	}
+	
 }
