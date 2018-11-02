@@ -1,1 +1,46 @@
-<div>Home HTml Test</div>
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<span th:replace="@{fragments/head}"></span>
+<body class="m--skin- m-page--loading-enabled m-page--loading m-content--skin-light m-header--fixed m-header--fixed-mobile m-aside-left--offcanvas-default m-aside-left--enabled m-aside-left--fixed m-aside-left--skin-dark m-aside--offcanvas-default">
+	<span th:replace="@{fragments/header}"></span>
+	<!-- begin::Body -->
+	<div class="m-grid__item m-grid__item--fluid m-grid m-grid--hor-desktop m-grid--desktop m-body">
+		<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-container m-container--responsive m-container--xxl m-container--full-height">
+		   	<div class="m-grid__item m-grid__item--fluid m-wrapper">
+				    				    
+				<!-- BEGIN: Subheader -->
+				<div class="m-subheader ">
+					<div class="d-flex align-items-center">
+				 		<div class="mr-auto">
+				 			<h3 class="m-subheader__title ">Home</h3>			
+						</div>
+	  					<div>
+		  					<span class="m-subheader__daterange" id="m_dashboard_daterangepicker">
+								<span class="m-subheader__daterange-label">
+									<span class="m-subheader__daterange-title"></span>
+									<span class="m-subheader__daterange-date m--font-brand"></span>
+								</span>
+								<a href="javascript:;" class="btn btn-sm btn-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill">
+									<i class="la la-angle-down"></i>
+								</a>
+							</span>
+				  		</div>
+					</div>
+				</div>
+				<!-- END: Subheader -->
+				
+				<div class="m-content row">
+				
+					<div style="height:100vh;width:100%;background: #ddd;">
+						first div container
+					</div>
+					<div style="height:100vh;width:100%;background: #888;">
+						second div container
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
