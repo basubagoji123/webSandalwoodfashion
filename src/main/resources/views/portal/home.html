@@ -1,55 +1,97 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <span th:replace="@{fragments/head}"></span>
-<body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-footer--push m-aside--offcanvas-default">
-	<!-- begin:: Page -->
-	<div class="m-grid m-grid--hor m-grid--root m-page">
-	
+<body  class="m-page--wide m-header--fixed m-header--fixed-mobile m-footer--push m-aside--offcanvas-default"  >
+    <!-- begin:: Page -->
+	<div class="m-grid m-grid--hor m-grid--root m-page">	
 	<span th:replace="@{fragments/header}"></span>
-	<!-- begin::Body -->
-	<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
-		<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-container m-container--responsive m-container--xxl m-container--full-height">
-		   	<div class="m-grid__item m-grid__item--fluid m-wrapper">
-				
-				<!-- BEGIN: Subheader -->
-				<div class="m-subheader ">
-					<div class="d-flex align-items-center">
-				 		<div class="mr-auto">
-				 			<h3 class="m-subheader__title m-subheader__title--separator">Home</h3>			
-							<ul class="m-subheader__breadcrumbs m-nav m-nav--inline">
-								<li class="m-nav__item m-nav__item--home">
-									<a href="javascript:;" class="m-nav__link m-nav__link--icon">
-									   <i class="m-nav__link-icon la la-home"></i>
-									</a>
-								</li>
-								<li class="m-nav__separator">-</li>
-								<li class="m-nav__item">
-									<a href="" class="m-nav__link">
-										<span class="m-nav__link-text">home</span>
-									</a>
-								</li>
-								<li class="m-nav__separator">-</li>
-								<li class="m-nav__item">
-									<a href="" class="m-nav__link">
-										<span class="m-nav__link-text">home</span>
-									</a>
-								</li>
-							</ul>
-			 			</div>
+	<div class="m-grid__item m-grid__item--fluid  m-grid m-grid--ver-desktop m-grid--desktop 	m-container m-container--responsive m-container--xxl m-page__container m-body">	
+		<div class="m-grid__item m-grid__item--fluid m-wrapper">
+								
+			<!-- BEGIN: Subheader -->
+			<div class="m-subheader">
+				<div class="d-flex align-items-center">
+ 					<div class="mr-auto">
+ 						<h3 class="m-subheader__title m-subheader__title--separator">Home</h3>			
+						<ul class="m-subheader__breadcrumbs m-nav m-nav--inline">
+							<li class="m-nav__item m-nav__item--home">
+								<a href="#" class="m-nav__link m-nav__link--icon">
+								   <i class="m-nav__link-icon la la-home"></i>
+								</a>
+							</li>
+							<li class="m-nav__separator">-</li>
+							<li class="m-nav__item">
+								<a href="" class="m-nav__link">
+									<span class="m-nav__link-text">Men's</span>
+								</a>
+							</li>
+							<li class="m-nav__separator">-</li>
+							<li class="m-nav__item">
+								<a href="" class="m-nav__link">
+									<span class="m-nav__link-text">Shirt's</span>
+								</a>
+							</li>
+						</ul>
 			 		</div>
+  					
+  					<div>
+  						<div class="m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push" m-dropdown-toggle="hover" aria-expanded="true">
+							<a href="#" class="m-portlet__nav-link btn btn-lg btn-secondary  m-btn m-btn--outline-2x m-btn--air m-btn--icon m-btn--icon-only m-btn--pill  m-dropdown__toggle">
+								<i class="la la-plus m--hide"></i>
+								<i class="la la-filter"></i>
+							</a>
+							<div class="m-dropdown__wrapper">
+								<span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
+								<div class="m-dropdown__inner">
+									<div class="m-dropdown__body">
+										<div class="m-dropdown__content">
+											<ul class="m-nav">
+												<li class="m-nav__section m-nav__section--first m--hide">
+													<span class="m-nav__section-text">Filter your Choice</span>
+												</li>
+												<li class="m-nav__item">
+													<a href="" class="m-nav__link">
+														<span class="m-nav__link-text">Shirts</span>
+													</a>
+												</li>
+												<li class="m-nav__item">
+													<a href="" class="m-nav__link">
+														<span class="m-nav__link-text">T-shirts</span>
+													</a>
+												</li>
+												<li class="m-nav__item">
+													<a href="" class="m-nav__link">
+														<span class="m-nav__link-text">Jeans</span>
+													</a>
+												</li>
+												<li class="m-nav__item">
+													<a href="" class="m-nav__link">
+														<span class="m-nav__link-text">Innerwear</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+			  		</div>
 				</div>
-				<!-- END: Subheader -->			     
-				
-				<div class="m-content row">
+			</div>
+			<!-- END: Subheader -->			     
+			<div class="m-content row">
 				
 					
-					
-				</div>
 				
 			</div>
+			
 		</div>
-	</div>
+	</div>	
 	<span th:replace="@{fragments/footer}"></span>
 	</div>
+	
+	<script type="text/javascript">
+		
+	</script>
 </body>
 </html>

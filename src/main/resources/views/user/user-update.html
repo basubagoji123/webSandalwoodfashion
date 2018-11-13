@@ -1,1 +1,104 @@
-<div>User Update test</div>
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<span th:replace="@{fragments/head}"></span>
+<body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-light m-aside-left--fixed m-aside-left--offcanvas m-aside-left--minimize m-brand--minimize m-footer--push m-aside--offcanvas-default">
+	<!-- begin:: Page -->
+	<div class="m-grid m-grid--hor m-grid--root m-page">
+		<span th:replace="@{fragments/header6}"></span>
+			<!-- begin::Body -->
+			<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+				<span th:replace="@{fragments/leftaside_menu}"></span>
+				<div class="m-grid__item m-grid__item--fluid m-wrapper">
+					<div class="m-subheader-search">
+						<h2 class="m-subheader-search__title">
+							Recent Bookings
+							<span class="m-subheader-search__desc">Onling Bookings Management</span>
+						</h2>
+						<form class="m-form">
+							<div class="m-grid m-grid--ver-desktop m-grid--desktop">
+								<div class="m-grid__item m-grid__item--middle">
+									<div class="m-input-icon m-input-icon--fixed m-input-icon--fixed-large m-input-icon--right">
+										<input type="text" class="form-control form-control-md m-input m-input--pill" placeholder="Booking Number" />
+										<span class="m-input-icon__icon m-input-icon__icon--right">
+											<span>
+												<i class="la la-puzzle-piece"></i>
+											</span>
+										</span>
+									</div>
+									<div class="m-input-icon m-input-icon--fixed m-input-icon--fixed-md m-input-icon--right">
+										<input type="text" class="form-control form-control-md m-input m-input--pill" placeholder="From" />
+										<span class="m-input-icon__icon m-input-icon__icon--right">
+											<span>
+												<i class="la la-calendar-check-o"></i>
+											</span>
+										</span>
+									</div>
+									<div class="m-input-icon m-input-icon--fixed m-input-icon--fixed-md m-input-icon--right">
+										<input type="text" class="form-control form-control-md m-input m-input--pill" placeholder="To" />
+										<span class="m-input-icon__icon m-input-icon__icon--right">
+											<span>
+												<i class="la la-calendar-check-o"></i>
+											</span>
+										</span>
+									</div>
+								</div>
+								<div class="m-grid__item m-grid__item--middle">
+									<div class="m--margin-top-20 m--visible-tablet-and-mobile"></div>
+									<button type="button" class="btn m-btn--pill m-subheader-search__submit-btn notifyInfo">Search Bookings</button>
+									<a href="#" class="m-subheader-search__link m-link">Advance Search</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="m-content">
+						
+						<!--Begin::Section-->
+						<div class="m-portlet">
+							<div class="m-portlet__body  m-portlet__body--no-padding">
+								<div class="row m-row--no-padding m-row--col-separator-xl">
+									<div class="form-element3">
+										<!--begin:: Widgets/Stats2-1 -->
+										<div class="m-widget1">
+											<img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="img-responsive" />
+										</div>
+										<!--end:: Widgets/Stats2-1 -->
+									</div>
+									<div class="form-element3">
+										<!--begin:: Widgets/Daily Sales-->
+										<div class="m-widget14">
+											<img th:src="@{/assets/demo/demo6/media/img/item/Polo-men-2018-Solid-polo-shirt-Long-sleeve-Slim-brand-Camisa-polo-ralp-men-cotton-polo.jpg}" alt="" class="img-responsive" />
+										</div>
+										<!--end:: Widgets/Daily Sales-->
+									</div>
+									<div class="form-element3">
+										<!--begin:: Widgets/Profit Share-->
+										<div class="m-widget14">
+											<img th:src="@{/assets/demo/demo6/media/img/item/tshirts_half.jpg}" alt="" class="img-responsive" />
+										</div>
+										<!--end:: Widgets/Profit Share-->
+									</div>
+									<div class="form-element3">
+										<!--begin:: Widgets/Profit Share-->
+										<div class="m-widget14">
+											<img th:src="@{/assets/demo/demo6/media/img/item/tshirts_full.jpg}" alt="" class="img-responsive" />
+										</div>
+										<!--end:: Widgets/Profit Share-->
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--End::Section--> 
+						
+						<div class="row">
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- end:: Body -->
+			<span th:replace="@{fragments/footer6}"></span>
+		</div>
+		<!-- end:: Page -->
+	</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<span th:replace="@{fragments/head}"></span>
+<body class="m-page--fluid m--skin- m-content--skin-light2 m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-light m-aside-left--fixed m-aside-left--offcanvas m-aside-left--minimize m-brand--minimize m-footer--push m-aside--offcanvas-default">
+	<!-- begin:: Page -->
+	<div class="m-grid m-grid--hor m-grid--root m-page">
+	<span th:replace="@{fragments/header6}"></span>
+		<!-- begin::Body -->
+		<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+			<span th:replace="@{fragments/leftaside_menu}"></span>
+			<div class="m-grid__item m-grid__item--fluid m-wrapper">
+				<!-- BEGIN: Subheader -->
+				<div class="m-subheader ">
+					<div class="d-flex align-items-center">
+				 		<div class="mr-auto">
+				 			<h3 class="m-subheader__title m-subheader__title--separator">Home</h3>			
+							<ul class="m-subheader__breadcrumbs m-nav m-nav--inline">
+								<li class="m-nav__item m-nav__item--home">
+									<a href="#" class="m-nav__link m-nav__link--icon">
+									   <i class="m-nav__link-icon la la-home"></i>
+									</a>
+								</li>
+								<li class="m-nav__separator">-</li>
+								<li class="m-nav__item">
+									<a href="" class="m-nav__link">
+										<span class="m-nav__link-text">Men's</span>
+									</a>
+								</li>
+								<li class="m-nav__separator">-</li>
+								<li class="m-nav__item">
+									<a href="" class="m-nav__link">
+										<span class="m-nav__link-text">T-Shirt's</span>
+									</a>
+								</li>
+								<li class="m-nav__separator">-</li>
+								<li class="m-nav__item">
+									<a href="" class="m-nav__link">
+										<span class="m-nav__link-text">Latest Orders</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- END: Subheader -->		
+				<div class="m-content">
+					<div class="row">
+					
+						<!--Begin::Section-->
+						<div class="m-portlet">
+							<div class="m-portlet__body  m-portlet__body--no-padding">
+								<div class="row m-row--no-padding m-row--col-separator-xl">
+									
+									<div class="col-xl-3 itemDesc--left">
+										<!--begin:: Widgets/Stats2-1 -->
+										<div class="zoomListImages--mainContainer">
+											<ul class="zoomListImages">
+												<li class="zoomListImage">
+													<img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="img-responsive" onclick="expandImageonhover(this);" />
+												</li>
+												<li class="zoomListImage">
+													<img th:src="@{/assets/demo/demo6/media/img/item/tshirts_white.png}" alt="" class="img-responsive" onclick="expandImageonhover(this);" />
+												</li>
+												<li class="zoomListImage">
+													<img th:src="@{/assets/demo/demo6/media/img/item/tshirts_half.jpg}" alt="" class="img-responsive" onclick="expandImageonhover(this);" />
+												</li>
+												<li class="zoomListImage">
+													<img th:src="@{/assets/demo/demo6/media/img/item/tshirts_full.jpg}" alt="" class="img-responsive" onclick="expandImageonhover(this);" />
+												</li>
+												<li class="zoomListImage">
+													<img th:src="@{/assets/demo/demo6/media/img/item/tshirts_black.jpg}" alt="" class="img-responsive" onclick="expandImageonhover(this);" />
+												</li>
+											</ul>
+										</div>
+										<br/><br/>
+										<div class="m-widget1 img-zoom-container">
+											<img id="myimage" th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="img-responsive" />
+											<div id="myresult" class="img-zoom-result"></div>
+										</div>
+										<!--end:: Widgets/Stats2-1 -->
+									</div>
+									
+									<div class="col-xl-6 itemDesc--center">
+										<div class="m-widget--container">
+											<div class="m-widget--container-header">
+												<div class="m-widget--container-title">UNITED CLASSIC Men's Cotton Solid Maroon Regular Fit Polo Tshirt</div>
+												<div class="m-widget--container-rating"> 
+													<span class="item_Rating"> 
+														<span class="rating" data-default-rating="4.5"></span>
+													</span> 
+													<span class="item_review m-nav__link">
+														<a href="javascript:;">20 Customer review</a> 
+													</span> 
+												</div> 
+											</div> 
+											<div class="m-widget--container-body"> 
+												<p class="m-widget--container-text"> Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy nibh euismod tinciduntut laoreet doloremagna aliquam erat volutpat. </p>
+												<p class="m-widget--container-text"> Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy nibh euismod tinciduntut laoreet doloremagna aliquam erat volutpat. </p>
+												<p class="m-widget--container-text"> Lorem ipsum dolor sit amet,consectetuer edipiscing elit,sed diam nonummy nibh euismod tinciduntut laoreet doloremagna aliquam erat volutpat. </p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-xl-3 itemDesc--right">
+										<!--begin:: Widgets/Profit Share-->
+										<div class="m-widgetRight">
+											<div class="m-widgetRight_content">
+												<div class="m-widgetRight_title m-nav__link">
+													<a href="javascript:;">Download APP</a> 
+												</div>
+												<img th:src="@{/assets/demo/demo6/media/img/item/sale_item1.jpg}" alt="" class="img-responsive" />
+											</div>
+											<div class="m-widgetRight_content">
+												<img th:src="@{/assets/demo/demo6/media/img/item/sale_item1.jpg}" alt="" class="img-responsive" />
+											</div>
+										</div>
+										<!--end:: Widgets/Profit Share-->
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<!--End::Section--> 
+					</div>
+					
+					<div class="row">
+						
+						<div class="col-xl-6">
+
+							<!--begin:: Widgets/Authors Profit-->
+							<div class="m-portlet m-portlet--bordered-semi m-portlet--full-height ">
+								<div class="m-portlet__head">
+									<div class="m-portlet__head-caption">
+										<div class="m-portlet__head-title">
+											<h3 class="m-portlet__head-text">
+												Authors Profit
+											</h3>
+										</div>
+									</div>
+									<div class="m-portlet__head-tools">
+										<a href="#m_modal_signin" data-toggle="modal" class="m-nav__link">
+											<span class="m-nav__link-icon">
+												<span class="m-nav__link-icon-wrapper">
+													<i class="la la-heart-o"></i>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="m-portlet__body itemCards">
+									<img th:src="@{/assets/demo/demo6/media/img/item/mens_tshirts.png}" alt="" class="img-responsive" />
+									<div class="item_desc">
+										<span class="item_title">T-shirt Men's gray color with blue mix</span>
+										<br/>
+									 	<label>Price:</label>
+										<span class="item_price">
+											<span class="item_sellingPrice">600 Rs.</span>
+											<span class="item_marketPrice">1200 Rs.</span>
+											<span class="item_discountPercent">50% off</span>
+										</span>
+										<br/>
+										<label>Rating:</label>
+											<span class="item_Rating">
+												<span class="rating" data-default-rating="2.5"></span>
+												<a href="javascript:;">(20)</a>
+											</span>
+										<br/>
+										<span class="item_more m-nav__link"><a href="javascript:;">see more</a></span>
+									</div>
+								</div>
+							</div>
+							<!--end:: Widgets/Authors Profit-->
+						</div>
+						
+						<div class="col-xl-6">
+
+							<!--begin:: Widgets/Authors Profit-->
+							<div class="m-portlet m-portlet--bordered-semi m-portlet--full-height ">
+								<div class="m-portlet__head">
+									<div class="m-portlet__head-caption">
+										<div class="m-portlet__head-title">
+											<h3 class="m-portlet__head-text">
+												Authors Profit
+											</h3>
+										</div>
+									</div>
+									<div class="m-portlet__head-tools">
+										<a href="#m_modal_signin" data-toggle="modal" class="m-nav__link">
+											<span class="m-nav__link-icon">
+												<span class="m-nav__link-icon-wrapper">
+													<i class="la la-heart-o"></i>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="m-portlet__body itemCards">
+									<img th:src="@{/assets/demo/demo6/media/img/item/Coat-2.jpg}" alt="" class="img-responsive" />
+									<div class="item_desc">
+										<span class="item_title">T-shirt Men's gray color with blue mix</span>
+										<br/>
+									 	<label>Price:</label>
+										<span class="item_price">
+											<span class="item_sellingPrice">600 Rs.</span>
+											<span class="item_marketPrice">1200 Rs.</span>
+											<span class="item_discountPercent">50% off</span>
+										</span>
+										<br/>
+										<label>Rating:</label>
+											<span class="item_Rating">
+												<span class="rating" data-default-rating="4.5"></span>
+												<a href="javascript:;">(20)</a>
+											</span>
+										<br/>
+										<span class="item_more m-nav__link"><a href="javascript:;">see more</a></span>
+									</div>
+								</div>
+							</div>
+							<!--end:: Widgets/Authors Profit-->
+						</div>
+						
+					</div>
+					
+					<div class="row">
+						
+						<div class="col-xl-12">
+							<!--begin:: Widgets/Authors Profit-->
+							<div class="m-portlet m-portlet--bordered-semi m-portlet--full-height ">
+								<div class="m-portlet__head itemList_head">
+									<div class="m-portlet__head-caption">
+										<div class="m-portlet__head-title">
+											<h3 class="m-portlet__head-text">
+												Upto 50% - 60% Discount
+											</h3>
+										</div>
+									</div>
+									<div class="m-portlet__head-tools">
+										<a href="#" class="m-nav__link">
+											<span class="m-nav__link-text">see more</span>
+										</a>
+									</div>
+								</div>
+								<div class="m-portlet__body itemList_body">
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+									<a href="#"><img th:src="@{/assets/demo/demo6/media/img/item/shirts-estilo-men-atacado-british-fashion.jpg}" alt="" class="listItem" /></a>
+								</div>
+							</div>
+							<!--end:: Widgets/Authors Profit-->
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<span th:replace="@{fragments/footer6}"></span>
+	</div>
+</body>
+</html>
